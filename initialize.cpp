@@ -6,14 +6,10 @@
  * All other competition modes are blocked by initialize; it is recommended
  * to keep execution time for this mode under a few seconds.
  */
-void initialize()
-{
-
-
-	//pros::lcd::set_text(1,fly_init.get_actual_velocity());
-	//pros::lcd::set_text(2,fly_init.get_temperature());
+void initialize() {
 	pros::lcd::initialize();
 }
+
 /**
  * Runs while the robot is in the disabled state of Field Management System or
  * the VEX Competition Switch, following either autonomous or opcontrol. When
